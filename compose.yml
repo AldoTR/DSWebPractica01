@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+ basedatos:
+   build:
+     context: ./
+     dockerfile: bd.Dockerfile
+   Image: postgres11uv
+
+#Ejecutar con:
+#docker-compose build
